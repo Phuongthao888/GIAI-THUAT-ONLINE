@@ -13,7 +13,7 @@ void xuat(int a[], int n) {
  cout << a[i] << "  ";
 }
 
-int tinhtongchan(int a[], int n){
+int tinhchan(int a[], int n){
 	int s=0;
 	for (int i; i <= n; i++)
 	{
@@ -21,7 +21,7 @@ int tinhtongchan(int a[], int n){
 			return -1;
 		else{
 			if(a[i] % 2 == 0){
-				return tinhtongchan(a,n) + s + a[i];
+				return tinhchan(a,n) + s + a[i];
 			}
 			else 
 				return 0;
@@ -38,7 +38,7 @@ int main(){
 	 
 	 nhap(a, n);
 	 xuat(a,n);
-	 int s = tinhtongchan(a, n);
+	 int s = tinhchan(a, n);
    	system("tong s: ");
 	 cout << s << endl;
 	 return 0;
