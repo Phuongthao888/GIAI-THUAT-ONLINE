@@ -38,7 +38,7 @@ int main(){
 	 
 	 nhap(a, n);
 	 xuat(a,n);
-	 int s = tinhchan(a, n);
+	 int s = tinhtongchan(a, n);
    	system("tong s: ");
 	 cout << s << endl;
 	 return 0;
