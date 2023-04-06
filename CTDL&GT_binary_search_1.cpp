@@ -1,3 +1,4 @@
+//tham khảo v1Study
 #include<stdio.h>
 #define max 50
 int nhapsonguyen(){
