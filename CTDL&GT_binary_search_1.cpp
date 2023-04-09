@@ -24,8 +24,6 @@ int xuatmang(int a[], int n){
 	for(int i=0; i<n; i++)
 		printf("%4d", a[i]);
 }
-
-#include <stdio.h>
  
 int tknhiphan(int a[], int l, int r) {
   if (r >= l) {
